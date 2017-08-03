@@ -1,0 +1,34 @@
+
+
+
+/*This is my test file for my HTTP server PROGRAM
+
+Methods of testing
+
+Check httpd.h file for fucntion descriptions
+
+
+1) server -- Using ./http 8080 /~cs124w/public/project1/htdocs
+    client -- curl -v --request GET "localhost:8080/index.html"
+
+
+2)autograder
+    client ~cs124w/public/project1/bin/cse124HttpdTester localhost 2500
+    server  ./httpd 2059 ~cs124w/public/project1/htdocs
+
+3) Autograder using baseline code
+
+4) Piplining
+     ./httpd 2054 ~cs124w/public/project1/extension_grader/htdocs_with_htaccess/
+
+     /home/linux/ieng6/cs124w/cs124w/public/project1/extension_grade localhost 2054
+
+
+
+5) Debug statements using the cout to the terminal*/
+
+
+6) Testing extensions with htaccess
+   ./httpd 2054 ~cs124w/public/project1/extension_grader/htdocs_with_htaccess/
+
+   ~cs124w/public/project1/extension_grader/cse124HttpdTester ieng6-250 2054
